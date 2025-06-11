@@ -56,8 +56,14 @@ llava-llama3:8b
 llava-phi3:3.8b
 llava:7b
 mistral:7b
+phi:2.7b
+phi3:3.8b
+tinyllama:1.1b
 qwen3:0.6b
 qwen3:1.7b
 qwen3:4b
 qwen3:8b
+smollm2:135m
+smollm2:360m
+smollm2:1.7b
 ```
