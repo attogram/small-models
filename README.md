@@ -7,8 +7,9 @@ Comparison of small open source LLMs
 granite3.2-vision:2b 
 minicpm-v:8b 
 qwen2.5vl:3b 
-qwen2.5vl:7b 
-gemma3:4b 
+qwen2.5vl:7b
+gemma3:1b
+gemma3:4b
 llava:7b 
 llava-llama3:8b
 llava-phi3:3.8b 
