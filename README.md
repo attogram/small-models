@@ -16,8 +16,14 @@ bakllava:7b
 moondream:1.8b
 ```
 
-## code generation
+## vision: ocr
+```
+granite3.2-vision:2b
+minicpm-v:8b
+qwen2.5vl:7b
+```
 
+## code generation
 ```
 qwen2.5-coder:7b
 codellama:7b
@@ -32,7 +38,6 @@ qwen3:1.7b
 ```
 
 ## general
-
 ```
 deepseek-r1:1.5b
 deepseek-r1:8b
