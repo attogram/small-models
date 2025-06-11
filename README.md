@@ -30,3 +30,20 @@ granite3.3:2b
 mistral:7b
 qwen3:1.7b
 ```
+
+## general
+
+```
+deepseek-r1:1.5b
+deepseek-r1:8b
+dolphin3:8b
+gemma3:1b
+gemma3:4b
+gemma:2b
+granite3.3:2b
+llava-llama3:8b
+llava-phi3:3.8b
+llava:7b
+mistral:7b
+qwen3:1.7b
+```
