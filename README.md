@@ -2,6 +2,13 @@
 
 Comparison of small open source LLMs
 
+## tool usage
+```
+granite3.3:2b
+qwen3:1.7b
+qwen3:8b
+```
+
 ## vision
 ```
 bakllava:7b
