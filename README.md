@@ -5,6 +5,7 @@ Comparison of small open source LLMs
 ## tool usage
 ```
 granite3.3:2b
+llama3.2:1b
 qwen3:0.6b
 qwen3:1.7b
 qwen3:8b
