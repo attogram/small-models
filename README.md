@@ -6,6 +6,7 @@ Comparison of small open source LLMs
 ```
 granite3.3:2b
 llama3.2:1b
+llama3-groq-tool-use:8b
 qwen3:0.6b
 qwen3:1.7b
 qwen3:8b
