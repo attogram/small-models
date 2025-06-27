@@ -1,6 +1,6 @@
 # small-models
 
-Comparison of small open source LLMs
+Comparison of small open source LLMs (8b parameters or less)
 
 ## tool usage
 ```
@@ -8,8 +8,9 @@ granite3.3:2b
 llama3.2:1b
 llama3-groq-tool-use:8b
 qwen3:0.6b
+huihui_ai/baronllm-abliterated:8b
 qwen3:1.7b
-qwen3:8b
+qwen3:8b *
 ```
 
 ## vision
@@ -21,7 +22,7 @@ granite3.2-vision:2b
 llava-llama3:8b
 llava-phi3:3.8b 
 llava:7b 
-minicpm-v:8b 
+minicpm-v:8b *
 moondream:1.8b
 qwen2.5vl:3b 
 qwen2.5vl:7b
