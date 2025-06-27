@@ -5,10 +5,10 @@ Comparison of small open source LLMs (8b parameters or less)
 ## tool usage
 ```
 granite3.3:2b
+huihui_ai/baronllm-abliterated:8b
 llama3.2:1b
 llama3-groq-tool-use:8b
 qwen3:0.6b
-huihui_ai/baronllm-abliterated:8b
 qwen3:1.7b
 qwen3:8b *
 ```
