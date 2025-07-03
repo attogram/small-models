@@ -20,6 +20,7 @@ qwen3:8b *
 dolphin3:8b
 gemma3:4b
 granite3.3:2b
+minicpm-v:8b
 mistral:7b
 qwen3:8b
 ```
