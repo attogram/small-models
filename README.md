@@ -3,6 +3,7 @@
 Comparison of small open source LLMs (8b parameters or less)
 
 ## tool usage
+- tested with [attogram/ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed)
 ```
 granite3.3:2b
 huihui_ai/baronllm-abliterated:8b
@@ -11,6 +12,16 @@ llama3-groq-tool-use:8b
 qwen3:0.6b
 qwen3:1.7b
 qwen3:8b *
+```
+
+## chat room
+- tested with [attogram/llm-council](https://github.com/attogram/llm-council)
+```
+dolphin3:8b
+gemma3:4b
+granite3.3:2b
+mistral:7b
+qwen3:8b
 ```
 
 ## vision
