@@ -1,5 +1,5 @@
-<a id="top"></a>
 # Small Models
+<a id="top"></a>
 
 Comparison of small open source LLMs (8b parameters or less)
 
