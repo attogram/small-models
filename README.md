@@ -8,7 +8,7 @@ Key:
 - ✅ Pass
 - ☑️ Partial Pass
 - ❌ Fail
-- 🕒 Fail from timeout
+- 🕒 Fail from timeout (5 minutes)
 
 ## Chat Room
 
@@ -138,35 +138,58 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 Tested with [attogram/ollama-multirun][ollama-multirun]
 
 | Small Model          | [OCR][ocr] |
-|:---------------------|:----------:|
-| bakllava:7b          |     ❌      |
-| granite3.2-vision:2b |     ☑️     |
-| minicpm-v:8b         |     ☑️     |
-| qwen2.5vl:3b         |     ✅      |
-| qwen2.5vl:7b         |     ✅      |
-| gemma3:4b            |     🕒     |
-| llava:7b             |     ❌      |
-| llava-llama3:8b      |     ❌      |
-| llava-phi3:3.8b      |     ❌      |
-| moondream:1.8b       |     ❌      |
+|:---------------------|------------|
+| bakllava:7b          | ❌          |
+| granite3.2-vision:2b | ☑️         |
+| minicpm-v:8b         | ☑️         |
+| qwen2.5vl:3b         | ✅          |
+| qwen2.5vl:7b         | ✅          |
+| gemma3:4b            | 🕒         |
+| llava:7b             | ❌          |
+| llava-llama3:8b      | ❌          |
+| llava-phi3:3.8b      | ❌          |
+| moondream:1.8b       | ❌          |
 
 [ocr]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.ocr.txt> "Vision OCR Test"
 
 [^top](#Small-Models)
 
 ## Code Generation
-```
-codellama:7b
-deepcoder:1.5b
-dolphin3:8b
-gemma:2b
-granite3.3:2b
-mistral:7b
-qwen2.5-coder:7b
-qwen3:1.7b
-stable-code:3b
-starcoder:7b
-```
+
+| Small Model                       | [bash-1][bash-1] | [javascript-1][javascript-1] | [php-1][php-1] | [python-1][python-1] |
+|:----------------------------------|------------------|------------------------------|----------------|----------------------|
+| bakllava:7b                       | ❌                |                              |                |                      |
+| codellama:7b                      | ✅ ️              |                              |                |                      |
+| deepcoder:1.5b                    | ❌                |                              |                |                      |
+| deepseek-r1:1.5b                  | ❌                |                              |                |                      |
+| deepseek-r1:8b                    | 🕒               |                              |                |                      |
+| dolphin-mistral:7b                | ✅                |                              |                |                      |
+| dolphin3:8b                       | ✅                |                              |                |                      |
+| gemma3:1b                         | ☑️               |                              |                |                      |
+| gemma3:4b                         | ☑️               |                              |                |                      |
+| gemma:2b                          | ✅                |                              |                |                      |
+| granite3.2-vision:2b              | ✅                |                              |                |                      |
+| granite3.3:2b                     | ☑️               |                              |                |                      |
+| huihui_ai/baronllm-abliterated:8b | ✅                |                              |                |                      |
+| llama3-groq-tool-use:8b           | ✅                |                              |                |                      |
+| llama3.2:1b                       | ☑️               |                              |                |                      |
+| llava-llama3:8b                   | ☑️               |                              |                |                      |
+| llava-phi3:3.8b                   | ✅                |                              |                |                      |
+| llava:7b                          | ✅                |                              |                |                      |
+| minicpm-v:8b                      | ❌                |                              |                |                      |
+| mistral:7b                        | ☑️               |                              |                |                      |
+| qwen2.5-coder:7b                  | ✅                |                              |                |                      |
+| qwen2.5vl:3b                      | ☑️               |                              |                |                      |
+| qwen2.5vl:7b                      | ✅                |                              |                |                      |
+| qwen3:1.7b                        | ✅                |                              |                |                      |
+| qwen3:8b                          | ✅                |                              |                |                      |
+| stable-code:3b                    | ☑️               |                              |                |                      |
+| starcoder:7b                      | ☑️               |                              |                |                      |
+
+[bash-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/bash.array.to.html.txt> "Bash Array to HTML Test"
+[javascript-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/javascript.array.to.html.txt> "Javascript Array to HTML Test"
+[php-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/php.array.to.html.txt> "PHP Array to HTML Test"
+[python-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/python.array.to.html.txt> "Python Array to HTML Test"
 
 [^top](#Small-Models)
 
