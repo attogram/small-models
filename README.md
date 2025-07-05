@@ -9,38 +9,38 @@ Comparison of small open source LLMs (8b parameters or less)
 
 Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
 
-| Small Model                       | [Quit][101] |  |
-|:----------------------------------|-------------|--|
-| bakllava:7b                       | ❌           |  |
-| codellama:7b                      | ✅           |  |
-| deepcoder:1.5b                    | ❌           |  |
-| deepseek-r1:1.5b                  | ✅           |  |
-| deepseek-r1:8b                    | ✅           |  |
-| dolphin-mistral:7b                | ✅           |  |
-| dolphin3:8b                       | ✅           |  |
-| gemma3:1b                         | ✅           |  |
-| gemma3:4b                         | ✅           |  |
-| gemma:2b                          | ✅           |  |
-| granite3.2-vision:2b              | ❌           |  |
-| granite3.3:2b                     | ✅           |  |
-| huihui_ai/baronllm-abliterated:8b | ✅           |  |
-| llama3-groq-tool-use:8b           | ✅           |  |
-| llama3.2:1b                       | ❌           |  |
-| llava-llama3:8b                   | ✅           |  |
-| llava-phi3:3.8b                   | ✅           |  |
-| llava:7b                          | ✅           |  |
-| minicpm-v:8b                      | ✅           |  |
-| mistral:7b                        | ✅           |  |
-| qwen2.5-coder:7b                  | ✅           |  |
-| qwen2.5vl:3b                      | ✅           |  |
-| qwen2.5vl:7b                      | ✅           |  |
-| qwen3:1.7b                        | ✅           |  |
-| qwen3:8b                          | ✅           |  |
-| smollm2:135m                      | ❌           |  |
-| smollm2:360m                      | ❌           |  |
-| smollm2:1.7b                      | ❌           |  |
-| stable-code:3b                    | ❌           |  |
-| starcoder:7b                      | ❌           |  |
+| Small Model                                      | [Quit][101] |
+|:-------------------------------------------------|:-----------:|
+| bakllava:7b                                      |      ❌      |
+| codellama:7b                                     |      ✅      |
+| deepcoder:1.5b                                   |      ❌      |
+| deepseek-r1:1.5b                                 |      ✅      |
+| deepseek-r1:8b                                   |      ✅      |
+| dolphin-mistral:7b                               |      ✅      |
+| dolphin3:8b                                      |      ✅      |
+| gemma3:1b                                        |      ✅      |
+| gemma3:4b                                        |      ✅      |
+| gemma:2b                                         |      ✅      |
+| granite3.2-vision:2b                             |      ❌      |
+| granite3.3:2b                                    |      ✅      |
+| <small>huihui_ai/baronllm-abliterated:8b</small> |      ✅      |
+| llama3-groq-tool-use:8b                          |      ✅      |
+| llama3.2:1b                                      |      ❌      |
+| llava-llama3:8b                                  |      ✅      |
+| llava-phi3:3.8b                                  |      ✅      |
+| llava:7b                                         |      ✅      |
+| minicpm-v:8b                                     |      ✅      |
+| mistral:7b                                       |      ✅      |
+| qwen2.5-coder:7b                                 |      ✅      |
+| qwen2.5vl:3b                                     |      ✅      |
+| qwen2.5vl:7b                                     |      ✅      |
+| qwen3:1.7b                                       |      ✅      |
+| qwen3:8b                                         |      ✅      |
+| smollm2:135m                                     |      ❌      |
+| smollm2:360m                                     |      ❌      |
+| smollm2:1.7b                                     |      ❌      |
+| stable-code:3b                                   |      ❌      |
+| starcoder:7b                                     |      ❌      |
 
 [101]: <https://github.com/attogram/llm-council/blob/main/test-prompts/test.quit.txt> "Quit Test"
 
@@ -50,40 +50,41 @@ Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
 
 Tested with [attogram/ollama-multirun](https://github.com/attogram/ollama-multirun)
 
-| Small Model                       | [Strawberry][201] |  |
-|:----------------------------------|-------------------|--|
-| bakllava:7b                       | ❌                 |  |
-| codellama:7b                      | ❌                 |  |
-| deepcoder:1.5b                    | ✅                 |  |
-| deepseek-r1:1.5b                  | ✅                 |  |
-| deepseek-r1:8b                    | 🕒                |  |
-| dolphin-mistral:7b                | ❌                 |  |
-| dolphin3:8b                       | ❌                 |  |
-| gemma3:1b                         | ✅                 |  |
-| gemma3:4b                         | ✅                 |  |
-| gemma:2b                          | ✅                 |  |
-| granite3.2-vision:2b              | ✅                 |  |
-| granite3.3:2b                     | ✅                 |  |
-| huihui_ai/baronllm-abliterated:8b | ❌                 |  |
-| llama3-groq-tool-use:8b           | ✅                 |  |
-| llama3.2:1b                       | ❌                 |  |
-| llava-llama3:8b                   | ❌                 |  |
-| llava-phi3:3.8b                   | ❌                 |  |
-| llava:7b                          | ❌                 |  |
-| minicpm-v:8b                      | ❌                 |  |
-| mistral:7b                        | ❌                 |  |
-| qwen2.5-coder:7b                  | ❌                 |  |
-| qwen2.5vl:3b                      | ✅                 |  |
-| qwen2.5vl:7b                      | ❌                 |  |
-| qwen3:1.7b                        | ✅                 |  |
-| qwen3:8b                          | ✅                 |  |
-| smollm2:135m                      | -                 |  |
-| smollm2:360m                      | -                 |  |
-| smollm2:1.7b                      | -                 |  |
-| stable-code:3b                    | ❌                 |  |
-| starcoder:7b                      | ❌                 |  |
+| Small Model                                      | [Socrates][201] | [Strawberry][202] |
+|:-------------------------------------------------|:---------------:|:-----------------:|
+| bakllava:7b                                      |        ✅        |         ❌         |
+| codellama:7b                                     |        ❌        |         ❌         |
+| deepcoder:1.5b                                   |        ✅        |         ✅         |
+| deepseek-r1:1.5b                                 |        ✅        |         ✅         |
+| deepseek-r1:8b                                   |        ✅        |        🕒         |
+| dolphin-mistral:7b                               |        ✅        |         ❌         |
+| dolphin3:8b                                      |        ✅        |         ❌         |
+| gemma3:1b                                        |        ✅        |         ✅         |
+| gemma3:4b                                        |        ✅        |         ✅         |
+| gemma:2b                                         |        ✅        |         ✅         |
+| granite3.2-vision:2b                             |        ✅        |         ✅         |
+| granite3.3:2b                                    |        ✅        |         ✅         |
+| <small>huihui_ai/baronllm-abliterated:8b</small> |        ✅        |         ❌         |
+| llama3-groq-tool-use:8b                          |        ✅        |         ✅         |
+| llama3.2:1b                                      |        ❌        |         ❌         |
+| llava-llama3:8b                                  |        ✅        |         ❌         |
+| llava-phi3:3.8b                                  |        ✅        |         ❌         |
+| llava:7b                                         |        ✅        |         ❌         |
+| minicpm-v:8b                                     |        ✅        |         ❌         |
+| mistral:7b                                       |        ✅        |         ❌         |
+| qwen2.5-coder:7b                                 |        ✅        |         ❌         |
+| qwen2.5vl:3b                                     |        ✅        |         ✅         |
+| qwen2.5vl:7b                                     |        ✅        |         ❌         |
+| qwen3:1.7b                                       |        ✅        |         ✅         |
+| qwen3:8b                                         |        ✅        |         ✅         |
+| smollm2:135m                                     |        -        |         -         |
+| smollm2:360m                                     |        -        |         -         |
+| smollm2:1.7b                                     |        -        |         -         |
+| stable-code:3b                                   |        ❌        |         ❌         |
+| starcoder:7b                                     |        ❌        |         ❌         |
 
-[201]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/strawberry.txt> "Strawberry Test"
+[201]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/socrates.txt> "Socrates Test"
+[202]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/strawberry.txt> "Strawberry Test"
 
 [^top](#top)
 
