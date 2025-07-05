@@ -4,7 +4,11 @@ Comparison of small open source LLMs (8b parameters or less)
 
 [Chat Room](#Chat-Room) | [Logic](#Logic) | [Tool Usage](#Tool-Usage) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
 
-Key: ✅ Pass, ☑️ Partial Pass, ❌ Fail, 🕒 Fail from timeout
+Key:
+- ✅ Pass
+- ☑️ Partial Pass
+- ❌ Fail
+- 🕒 Fail from timeout
 
 ## Chat Room
 
