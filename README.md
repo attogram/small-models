@@ -1,9 +1,50 @@
-# small-models
+# Small Models
 
 Comparison of small open source LLMs (8b parameters or less)
 
-## tool usage
-- tested with [attogram/ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed)
+## Chat Room
+
+Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
+
+| Small Model                       | [Quit][1] |  |
+|:----------------------------------|-----------|--|
+| bakllava:7b                       | ❌         |  |
+| codellama:7b                      | ✅         |  |
+| deepcoder:1.5b                    | ❌         |  |
+| deepseek-r1:1.5b                  | ✅         |  |
+| deepseek-r1:8b                    | ✅         |  |
+| dolphin3:8b                       | ✅         |  |
+| dolphin-mistral:7b                | ✅         |  |
+| huihui_ai/baronllm-abliterated:8b | ✅         |  |
+| gemma:2b                          | ✅         |  |
+| gemma3:1b                         | ✅         |  |
+| gemma3:4b                         | ✅         |  |
+| granite3.2-vision:2b              | ❌         |  |
+| granite3.3:2b                     | ✅         |  |
+| llama3-groq-tool-use:8b           | ✅         |  |
+| llama3.2:1b                       | ❌         |  |
+| llava:7b                          | ✅         |  |
+| llava-llama3:8b                   | ✅         |  |
+| llava-phi3:3.8b                   | ✅         |  |
+| minicpm-v:8b                      | ✅         |  |
+| mistral:7b                        | ✅         |  |
+| qwen2.5-coder:7b                  | ✅         |  |
+| qwen2.5vl:3b                      | ✅         |  |
+| qwen2.5vl:7b                      | ✅         |  |
+| qwen3:1.7b                        | ✅         |  |
+| qwen3:8b                          | ✅         |  |
+| smollm2:135m                      | ❌         |  |
+| smollm2:360m                      | ❌         |  |
+| smollm2:1.7b                      | ❌         |  |
+| stable-code:3b                    | ❌         |  |
+| starcoder:7b                      | ❌         |  |
+
+[1]: <https://github.com/attogram/llm-council/blob/main/test-prompts/test.quit.txt>
+
+## Tool Usage
+
+Tested with [attogram/ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed)
+
 ```
 granite3.3:2b
 huihui_ai/baronllm-abliterated:8b
@@ -12,17 +53,6 @@ llama3-groq-tool-use:8b
 qwen3:0.6b
 qwen3:1.7b
 qwen3:8b *
-```
-
-## chat room
-- tested with [attogram/llm-council](https://github.com/attogram/llm-council)
-```
-dolphin3:8b
-gemma3:4b
-granite3.3:2b
-minicpm-v:8b
-mistral:7b
-qwen3:8b
 ```
 
 ## vision
