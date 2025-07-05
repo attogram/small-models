@@ -4,9 +4,11 @@ Comparison of small open source LLMs (8b parameters or less)
 
 [Chat Room](#Chat-Room) | [Logic](#Logic) | [Tool Usage](#Tool-Usage) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
 
+Key: ✅ Pass, ☑️ Partial Pass, ❌ Fail, 🕒 Fail from timeout
+
 ## Chat Room
 
-Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
+Tested with [attogram/llm-council][llm-council]
 
 | Small Model                                      | [Topic][topic] | [Quit][quit] |
 |:-------------------------------------------------|----------------|:------------:|
@@ -48,7 +50,7 @@ Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
 
 ## Logic
 
-Tested with [attogram/ollama-multirun](https://github.com/attogram/ollama-multirun)
+Tested with [attogram/ollama-multirun][ollama-multirun]
 
 | Small Model                                      | [Socrates][socrates] | [Strawberry][strawberry] |
 |:-------------------------------------------------|:--------------------:|:------------------------:|
@@ -105,28 +107,46 @@ qwen3:8b *
 [^top](#Small-Models)
 
 ## Vision
-```
-bakllava:7b
-gemma3:1b
-gemma3:4b
-granite3.2-vision:2b 
-llava-llama3:8b
-llava-phi3:3.8b 
-llava:7b 
-minicpm-v:8b *
-moondream:1.8b
-qwen2.5vl:3b 
-qwen2.5vl:7b
-```
+
+Tested with [attogram/ollama-multirun][ollama-multirun]
+
+| Small Model          | [Describe][describe] | [Keywords][keywords] | [Faces][faces] |
+|:---------------------|:--------------------:|:--------------------:|:--------------:|
+| bakllava:7b          |          ✅           |          ❌           |       ❌        |            
+| granite3.2-vision:2b |          ✅           |          ✅           |       ❌        |            
+| minicpm-v:8b         |          ✅           |          ✅           |       ☑️       |            
+| qwen2.5vl:3b         |          ✅           |          ✅           |       ❌        |            
+| qwen2.5vl:7b         |          ✅           |          ✅           |       ✅        |            
+| gemma3:4b            |          ✅           |          ✅           |       ✅        |            
+| llava:7b             |          ✅           |          ✅           |       ✅        |            
+| llava-llama3:8b      |          ✅           |          ☑️          |       ☑️       |            
+| llava-phi3:3.8b      |          ✅           |          ☑️          |       ☑️       |            
+| moondream:1.8b       |          ✅           |          ❌           |       ❌        |            
+
+[describe]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.describe.txt> "Vision Describe Test"
+[keywords]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.keywords.txt> "Vision Keywords Test"
+[faces]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.faces.txt> "Vision Faces Test"
 
 [^top](#Small-Models)
 
 ## Vision OCR
-```
-granite3.2-vision:2b
-minicpm-v:8b
-qwen2.5vl:7b
-```
+
+Tested with [attogram/ollama-multirun][ollama-multirun]
+
+| Small Model          | [OCR][ocr] |
+|:---------------------|:----------:|
+| bakllava:7b          |     ❌      |
+| granite3.2-vision:2b |     ☑️     |
+| minicpm-v:8b         |     ☑️     |
+| qwen2.5vl:3b         |     ✅      |
+| qwen2.5vl:7b         |     ✅      |
+| gemma3:4b            |     🕒     |
+| llava:7b             |     ❌      |
+| llava-llama3:8b      |     ❌      |
+| llava-phi3:3.8b      |     ❌      |
+| moondream:1.8b       |     ❌      |
+
+[ocr]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.ocr.txt> "Vision OCR Test"
 
 [^top](#Small-Models)
 
@@ -185,3 +205,6 @@ smollm2:1.7b
 * [ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed) — A bash script to chat with tool usage models.  Easily add new tools to your shed!
 * [small-models](https://github.com/attogram/small-models) — Comparison of small open source LLMs
 * [AI Test Zone](https://github.com/attogram/ai_test_zone) — Demos hosted on https://attogram.github.io/ai_test_zone/
+
+[llm-council]: <[attogram/llm-council](https://github.com/attogram/llm-council> "LLM Council"
+[ollama-multirun]: <https://github.com/attogram/ollama-multirun> "Ollama Multirun"
