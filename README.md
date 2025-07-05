@@ -96,7 +96,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 ## Tool Usage
 
-Tested with [attogram/ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed)
+Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
 ```
 granite3.3:2b
@@ -210,5 +210,6 @@ smollm2:1.7b
 * [small-models](https://github.com/attogram/small-models) — Comparison of small open source LLMs
 * [AI Test Zone](https://github.com/attogram/ai_test_zone) — Demos hosted on https://attogram.github.io/ai_test_zone/
 
-[llm-council]: <[attogram/llm-council](https://github.com/attogram/llm-council> "LLM Council"
+[llm-council]: <https://github.com/attogram/llm-council> "LLM Council"
+[ollama-bash-toolshed]: <https://github.com/attogram/ollama-bash-toolshed> "Ollama Bash Toolshed"
 [ollama-multirun]: <https://github.com/attogram/ollama-multirun> "Ollama Multirun"
