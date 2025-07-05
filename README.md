@@ -14,41 +14,42 @@ Key:
 
 Tested with [attogram/llm-council][llm-council]
 
-| Small Model                       | [Topic][topic]     | [Quit][quit]     |
-|:----------------------------------|--------------------|------------------|
-| bakllava:7b                       |                    | ❌                |
-| codellama:7b                      |                    | ✅                |
-| deepcoder:1.5b                    |                    | ❌                |
-| deepseek-r1:1.5b                  | ❌                  | ✅                |
-| deepseek-r1:8b                    |                    | ✅                |
-| dolphin-mistral:7b                |                    | ✅                |
-| dolphin3:8b                       |                    | ✅                |
-| gemma3:1b                         |                    | ✅                |
-| gemma3:4b                         | ✅                  | ✅                |
-| gemma:2b                          |                    | ✅                |
-| granite3.2-vision:2b              |                    | ❌                |
-| granite3.3:2b                     | ❌                  | ✅                |
-| huihui_ai/baronllm-abliterated:8b |                    | ✅                |
-| llama3-groq-tool-use:8b           |                    | ✅                |
-| llama3.2:1b                       |                    | ❌                |
-| llava-llama3:8b                   |                    | ✅                |
-| llava-phi3:3.8b                   |                    | ✅                |
-| llava:7b                          |                    | ✅                |
-| minicpm-v:8b                      |                    | ✅                |
-| mistral:7b                        |                    | ✅                |
-| qwen2.5-coder:7b                  |                    | ✅                |
-| qwen2.5vl:3b                      |                    | ✅                |
-| qwen2.5vl:7b                      |                    | ✅                |
-| qwen3:1.7b                        |                    | ✅                |
-| qwen3:8b                          |                    | ✅                |
-| smollm2:135m                      |                    | ❌                |
-| smollm2:360m                      |                    | ❌                |
-| smollm2:1.7b                      |                    | ❌                |
-| stable-code:3b                    |                    | ❌                |
-| starcoder:7b                      |                    | ❌                |
-| **Small Model**                   | **[Topic][topic]** | **[Quit][quit]** |
+| Small Model                       | [Peace][peace]     | [Quit][quit]     | [Topic][topic]     |
+|:----------------------------------|--------------------|------------------|--------------------|
+| bakllava:7b                       |                    | ❌                |                    |
+| codellama:7b                      |                    | ✅                |                    |
+| deepcoder:1.5b                    |                    | ❌                |                    |
+| deepseek-r1:1.5b                  |                    | ✅                | ❌                  |
+| deepseek-r1:8b                    |                    | ✅                |                    |
+| dolphin-mistral:7b                |                    | ✅                |                    |
+| dolphin3:8b                       | ✅                  | ✅                |                    |
+| gemma3:1b                         |                    | ✅                |                    |
+| gemma3:4b                         | ✅                  | ✅                | ✅                  |
+| gemma:2b                          |                    | ✅                |                    |
+| granite3.2-vision:2b              |                    | ❌                |                    |
+| granite3.3:2b                     | ✅                  | ✅                | ❌                  |
+| huihui_ai/baronllm-abliterated:8b |                    | ✅                |                    |
+| llama3-groq-tool-use:8b           |                    | ✅                |                    |
+| llama3.2:1b                       |                    | ❌                |                    |
+| llava-llama3:8b                   |                    | ✅                |                    |
+| llava-phi3:3.8b                   |                    | ✅                |                    |
+| llava:7b                          |                    | ✅                |                    |
+| minicpm-v:8b                      | ✅                  | ✅                |                    |
+| mistral:7b                        | ✅                  | ✅                |                    |
+| qwen2.5-coder:7b                  |                    | ✅                |                    |
+| qwen2.5vl:3b                      |                    | ✅                |                    |
+| qwen2.5vl:7b                      |                    | ✅                |                    |
+| qwen3:1.7b                        |                    | ✅                |                    |
+| qwen3:8b                          | ✅                  | ✅                |                    |
+| smollm2:135m                      |                    | ❌                |                    |
+| smollm2:360m                      |                    | ❌                |                    |
+| smollm2:1.7b                      |                    | ❌                |                    |
+| stable-code:3b                    |                    | ❌                |                    |
+| starcoder:7b                      |                    | ❌                |                    |
+| **Small Model**                   | **[Peace][peace]** | **[Quit][quit]** | **[Topic][topic]** |
 
 [quit]: <https://github.com/attogram/llm-council/blob/main/test-prompts/test.quit.txt> "Quit Test"
+[peace]: <https://github.com/attogram/llm-council/blob/main/test-prompts/world.peace.txt> "World Peace Test"
 [topic]: <https://github.com/attogram/llm-council/blob/main/test-prompts/test.topic.txt> "Topic Test"
 
 [^top](#Small-Models)
