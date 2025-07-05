@@ -183,6 +183,9 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | qwen2.5vl:7b                      | ✅                |                              |                |                      |
 | qwen3:1.7b                        | ✅                |                              |                |                      |
 | qwen3:8b                          | ✅                |                              |                |                      |
+| smollm2:135m                      | ❌                |                              |
+| smollm2:360m                      | ☑️               |                              |
+| smollm2:1.7b                      | ✅                |                              |
 | stable-code:3b                    | ☑️               |                              |                |                      |
 | starcoder:7b                      | ☑️               |                              |                |                      |
 
