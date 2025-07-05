@@ -1,3 +1,4 @@
+<a id="top"></a>
 # Small Models
 
 Comparison of small open source LLMs (8b parameters or less)
@@ -43,6 +44,8 @@ Tested with [attogram/llm-council](https://github.com/attogram/llm-council)
 
 [101]: <https://github.com/attogram/llm-council/blob/main/test-prompts/test.quit.txt> "Quit Test"
 
+[^top](#top)
+
 ## Logic
 
 Tested with [attogram/ollama-multirun](https://github.com/attogram/ollama-multirun)
@@ -82,6 +85,8 @@ Tested with [attogram/ollama-multirun](https://github.com/attogram/ollama-multir
 
 [201]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/strawberry.txt> "Strawberry Test"
 
+[^top](#top)
+
 ## Tool Usage
 
 Tested with [attogram/ollama-bash-toolshed](https://github.com/attogram/ollama-bash-toolshed)
@@ -95,6 +100,8 @@ qwen3:0.6b
 qwen3:1.7b
 qwen3:8b *
 ```
+
+[^top](#top)
 
 ## Vision
 ```
@@ -111,12 +118,16 @@ qwen2.5vl:3b
 qwen2.5vl:7b
 ```
 
+[^top](#top)
+
 ## Vision OCR
 ```
 granite3.2-vision:2b
 minicpm-v:8b
 qwen2.5vl:7b
 ```
+
+[^top](#top)
 
 ## Code Generation
 ```
@@ -131,6 +142,8 @@ qwen3:1.7b
 stable-code:3b
 starcoder:7b
 ```
+
+[^top](#top)
 
 ## General
 ```
@@ -161,6 +174,8 @@ smollm2:135m
 smollm2:360m
 smollm2:1.7b
 ```
+
+[^top](#top)
 
 ## Attogram Artificial Intelligence Projects
 
