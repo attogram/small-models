@@ -63,7 +63,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | Small Model                       |   [Socrates][socrates]   |   [Strawberry][strawberry]   |
 |:----------------------------------|:------------------------:|:----------------------------:|
 | bakllava:7b                       |            ✅             |              ❌               |
-| codellama:7b                      |            ❌             |              ❌               |
+| ~~codellama:7b~~                  |            ❌             |              ❌               |
 | **deepcoder:1.5b**                |            ✅             |              ✅               |
 | **deepseek-r1:1.5b**              |            ✅             |              ✅               |
 | deepseek-r1:8b                    |            ✅             |              🕒              |
@@ -76,7 +76,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | **granite3.3:2b**                 |            ✅             |              ✅               |
 | huihui_ai/baronllm-abliterated:8b |            ✅             |              ❌               |
 | **llama3-groq-tool-use:8b**       |            ✅             |              ✅               |
-| llama3.2:1b                       |            ❌             |              ❌               |
+| ~~llama3.2:1b~~                   |            ❌             |              ❌               |
 | llava-llama3:8b                   |            ✅             |              ❌               |
 | llava-phi3:3.8b                   |            ✅             |              ❌               |
 | llava:7b                          |            ✅             |              ❌               |
@@ -90,8 +90,8 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | smollm2:135m                      |            ☑️            |              ❌               |
 | smollm2:360m                      |            ✅             |              ❌               |
 | smollm2:1.7b                      |            ✅             |              ❌               |
-| stable-code:3b                    |            ❌             |              ❌               |
-| starcoder:7b                      |            ❌             |              ❌               |
+| ~~stable-code:3b~~                |            ❌             |              ❌               |
+| ~~starcoder:7b~~                  |            ❌             |              ❌               |
 | **Small Model**                   | **[Socrates][socrates]** | **[Strawberry][strawberry]** |
 
 [socrates]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/socrates.txt> "Socrates Test"
@@ -103,19 +103,19 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
-| Small Model             | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
-|:------------------------|:------------:|:----------------:|:------------:|:----------:|
-| granite3.2-vision:2b    |      ❌       |        ❌         |      ❌       |     ❌      |
-| granite3.3:2b           |      ❌       |        ❌         |      ❌       |     ❌      |
-| **hermes3:8b**          |      ✅       |        ✅         |      ✅       |     ✅      |
-| llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
-| llama3.2:1b             |      ☑️      |        ✅         |      ☑️      |     ❌      |
-| mistral:7b              |      ❌       |        ❌         |      ❌       |     ❌      |
-| qwen2.5-coder:7b        |      ❌       |        ❌         |      ❌       |     ❌      |
-| qwen3:0.6b              |      ✅       |        ☑️        |      ❌       |     ✅      |
-| **qwen3:1.7b**          |      ✅       |        ✅         |      ✅       |     ✅      |
-| **qwen3:8b**            |      ✅       |        ✅         |      ✅       |     ✅      |
-| smollm2:1.7b            |      ❌       |        ❌         |      ❌       |     ❌      |
+| Small Model              | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:-------------------------|:------------:|:----------------:|:------------:|:----------:|
+| ~~granite3.2-vision:2b~~ |      ❌       |        ❌         |      ❌       |     ❌      |
+| ~~granite3.3:2b~~        |      ❌       |        ❌         |      ❌       |     ❌      |
+| **hermes3:8b**           |      ✅       |        ✅         |      ✅       |     ✅      |
+| llama3-groq-tool-use:8b  |      ✅       |        ✅         |      ❌       |     ✅      |
+| llama3.2:1b              |      ☑️      |        ✅         |      ☑️      |     ❌      |
+| ~~mistral:7b~~           |      ❌       |        ❌         |      ❌       |     ❌      |
+| ~~qwen2.5-coder:7b~~     |      ❌       |        ❌         |      ❌       |     ❌      |
+| qwen3:0.6b               |      ✅       |        ☑️        |      ❌       |     ✅      |
+| **qwen3:1.7b**           |      ✅       |        ✅         |      ✅       |     ✅      |
+| **qwen3:8b**             |      ✅       |        ✅         |      ✅       |     ✅      |
+| ~~smollm2:1.7b~~         |      ❌       |        ❌         |      ❌       |     ❌      |
 
 [math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
 [ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
@@ -158,16 +158,16 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 | Small Model          | [OCR][ocr] |
 |:---------------------|:----------:|
-| bakllava:7b          |     ❌      |
+| ~~bakllava:7b~~      |     ❌      |
 | granite3.2-vision:2b |     ☑️     |
 | minicpm-v:8b         |     ☑️     |
 | **qwen2.5vl:3b**     |     ✅      |
 | **qwen2.5vl:7b**     |     ✅      |
 | gemma3:4b            |     🕒     |
-| llava:7b             |     ❌      |
-| llava-llama3:8b      |     ❌      |
-| llava-phi3:3.8b      |     ❌      |
-| moondream:1.8b       |     ❌      |
+| ~~llava:7b~~         |     ❌      |
+| ~~llava-llama3:8b~~  |     ❌      |
+| ~~llava-phi3:3.8b~~  |     ❌      |
+| ~~moondream:1.8b~~   |     ❌      |
 
 [ocr]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.ocr.txt> "Vision OCR Test"
 
@@ -202,7 +202,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | **qwen2.5vl:7b**                      |          ✅           |                  |         ✅          |                          |
 | **qwen3:1.7b**                        |          ✅           |                  |         ✅          |                          |
 | **qwen3:8b**                          |          ✅           |                  |         ✅          |                          |
-| smollm2:135m                          |          ❌           |                  |         ❌          |                          |
+| ~~smollm2:135m~~                      |          ❌           |                  |         ❌          |                          |
 | smollm2:360m                          |          ☑️          |                  |         ☑️         |                          |
 | smollm2:1.7b                          |          ✅           |                  |         ☑️         |                          |
 | stable-code:3b                        |          ☑️          |                  |         ✅          |                          |
@@ -251,7 +251,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | smollm2:360m                      |              ☑️              |       ✅        |
 | **smollm2:1.7b**                  |              ✅               |       ✅        |
 | stable-code:3b                    |              ☑️              |       ✅        |
-| starcoder:7b                      |              ❌               |       ❌        |
+| ~~starcoder:7b~~                  |              ❌               |       ❌        |
 | **Small Model**                   | **[Hovercraft][hovercraft]** | **[Who][who]** |
 
 [hovercraft]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/hovercraft.txt> "Hovercraft Test"
