@@ -105,6 +105,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
 | Small Model              | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
 |:-------------------------|:------------:|:----------------:|:------------:|:----------:|
+| ~~command-r7b:7b~~       |      ❌       |        ❌         |      ❌       |     ❌      |
 | ~~granite3.2-vision:2b~~ |      ❌       |        ❌         |      ❌       |     ❌      |
 | ~~granite3.3:2b~~        |      ❌       |        ❌         |      ❌       |     ❌      |
 | **hermes3:8b**           |      ✅       |        ✅         |      ✅       |     ✅      |
