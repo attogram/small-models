@@ -2,7 +2,7 @@
 
 Comparison of small open source LLMs (8b parameters or less)
 
-[Chat Room](#Chat-Room) | [Logic](#Logic) | [Tool Usage](#Tool-Usage) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
+[Tool Usage](#Tool-Usage) | [Chat Room](#Chat-Room) | [Logic](#Logic) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
 
 All testing done with [Ollama](https://github.com/ollama/ollama)
 
@@ -11,6 +11,37 @@ Key:
 - ☑️ Partial Pass
 - ❌ Fail
 - 🕒 Fail from timeout (5 minutes)
+
+## Tool Usage
+
+Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
+
+| Passing       | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:--------------|:------------:|:----------------:|:------------:|:----------:|
+| cogito:8b     |      ✅       |        ✅         |      ✅       |     ✅      |
+| granite3.3:2b |      ✅       |        ✅         |      ✅       |     ✅      |
+| hermes3:8b    |      ✅       |        ✅         |      ✅       |     ✅      |
+| llama3.2:1b   |      ✅       |        ✅         |      ✅       |     ✅      |
+| qwen3:1.7b    |      ✅       |        ✅         |      ✅       |     ✅      |
+| qwen3:8b      |      ✅       |        ✅         |      ✅       |     ✅      |
+
+| Failing                 | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:------------------------|:------------:|:----------------:|:------------:|:----------:|
+| command-r7b:7b          |      ❌       |        ❌         |      ❌       |     ❌      |
+| granite3.2-vision:2b    |      ❌       |        ❌         |      ❌       |     ❌      |
+| llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
+| mistral:7b              |      ❌       |        ❌         |      ❌       |     ❌      |
+| nemotron-mini:4b        |      ✅       |        ❌         |      ✅       |     ☑️     |
+| qwen2.5-coder:7b        |      ☑️      |        ☑️        |      ☑️      |     ☑️     |
+| qwen3:0.6b              |      ✅       |        ☑️        |      ❌       |     ✅      |
+| smollm2:1.7b            |      ☑️      |        ❌         |      ☑️      |     ☑️     |
+
+[math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
+[ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
+[time]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/time.txt> "Datetime Tool Test"
+[web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "What time is it Test"
+
+[^top](#Small-Models)
 
 ## Chat Room
 
@@ -96,41 +127,6 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 [socrates]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/socrates.txt> "Socrates Test"
 [strawberry]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/strawberry.txt> "Strawberry Test"
-
-[^top](#Small-Models)
-
-## Tool Usage
-
-Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
-
-| Passing                 | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
-|:------------------------|:------------:|:----------------:|:------------:|:----------:|
-| **hermes3:8b**          |      ✅       |        ✅         |      ✅       |     ✅      |
-| llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
-| llama3.2:1b             |      ☑️      |        ✅         |      ☑️      |     ❌      |
-| nemotron-mini:4b        |      ✅       |        ❌         |      ✅       |     ☑️     |
-| qwen3:0.6b              |      ✅       |        ☑️        |      ❌       |     ✅      |
-| **qwen3:1.7b**          |      ✅       |        ✅         |      ✅       |     ✅      |
-| **qwen3:8b**            |      ✅       |        ✅         |      ✅       |     ✅      |
-
-| Failing              | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
-|:---------------------|:------------:|:----------------:|:------------:|:----------:|
-| command-r7b:7b       |      ❌       |        ❌         |      ❌       |     ❌      |
-| granite3.2-vision:2b |      ❌       |        ❌         |      ❌       |     ❌      |
-| granite3.3:2b        |      ❌       |        ❌         |      ❌       |     ❌      |
-| mistral:7b           |      ❌       |        ❌         |      ❌       |     ❌      |
-| qwen2.5-coder:7b     |      ❌       |        ❌         |      ❌       |     ❌      |
-| smollm2:1.7b         |      ❌       |        ❌         |      ❌       |     ❌      |
-
-[math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
-[ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
-[time]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/time.txt> "Datetime Tool Test"
-[web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "What time is it Test"
-
-```
-huihui_ai/baronllm-abliterated:8b
-
-```
 
 [^top](#Small-Models)
 
