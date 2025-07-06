@@ -4,6 +4,8 @@ Comparison of small open source LLMs (8b parameters or less)
 
 [Chat Room](#Chat-Room) | [Logic](#Logic) | [Tool Usage](#Tool-Usage) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
 
+All testing done with [Ollama](https://github.com/ollama/ollama)
+
 Key:
 - ✅ Pass
 - ☑️ Partial Pass
@@ -101,14 +103,26 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
+| Small Model             | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:------------------------|--------------|------------------|:-------------|------------|
+| granite3.2-vision:2b    | ❌            | ❌                | ❌            | ❌          |
+| granite3.3:2b           | ❌            | ❌                | ❌            | ❌          |
+| llama3-groq-tool-use:8b | ✅            | ✅                | ❌            | ✅          |
+| llama3.2:1b             | ☑️           | ✅                | ☑️           | ❌          |
+| mistral:7b              | ❌            | ❌                | ❌            | ❌          |
+| qwen2.5-coder:7b        | ❌            | ❌                | ❌            | ❌          |
+| qwen3:1.7b              | ✅            | ✅                | ✅            | ✅          |
+| qwen3:8b                | ✅            | ✅                | ✅            | ✅          |
+| smollm2:1.7b            | ❌            | ❌                | ❌            | ❌          |
+
+[math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
+[ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
+[time]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/time.txt> "Datetime Tool Test"
+[web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "What time is it Test"
+
 ```
-granite3.3:2b
 huihui_ai/baronllm-abliterated:8b
-llama3.2:1b
-llama3-groq-tool-use:8b
 qwen3:0.6b
-qwen3:1.7b
-qwen3:8b *
 ```
 
 [^top](#Small-Models)
