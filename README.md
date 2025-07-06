@@ -111,6 +111,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 | llama3.2:1b             | ☑️           | ✅                | ☑️           | ❌          |
 | mistral:7b              | ❌            | ❌                | ❌            | ❌          |
 | qwen2.5-coder:7b        | ❌            | ❌                | ❌            | ❌          |
+| qwen3:0.6b              | ✅            | ☑️               | ❌            | ✅          |
 | qwen3:1.7b              | ✅            | ✅                | ✅            | ✅          |
 | qwen3:8b                | ✅            | ✅                | ✅            | ✅          |
 | smollm2:1.7b            | ❌            | ❌                | ❌            | ❌          |
@@ -122,7 +123,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
 ```
 huihui_ai/baronllm-abliterated:8b
-qwen3:0.6b
+
 ```
 
 [^top](#Small-Models)
