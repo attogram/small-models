@@ -103,21 +103,24 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
-| Small Model              | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
-|:-------------------------|:------------:|:----------------:|:------------:|:----------:|
-| ~~command-r7b:7b~~       |      ❌       |        ❌         |      ❌       |     ❌      |
-| ~~granite3.2-vision:2b~~ |      ❌       |        ❌         |      ❌       |     ❌      |
-| ~~granite3.3:2b~~        |      ❌       |        ❌         |      ❌       |     ❌      |
-| **hermes3:8b**           |      ✅       |        ✅         |      ✅       |     ✅      |
-| llama3-groq-tool-use:8b  |      ✅       |        ✅         |      ❌       |     ✅      |
-| llama3.2:1b              |      ☑️      |        ✅         |      ☑️      |     ❌      |
-| ~~mistral:7b~~           |      ❌       |        ❌         |      ❌       |     ❌      |
-| nemotron-mini:4b         |      ✅       |        ❌         |      ✅       |     ☑️     |
-| ~~qwen2.5-coder:7b~~     |      ❌       |        ❌         |      ❌       |     ❌      |
-| qwen3:0.6b               |      ✅       |        ☑️        |      ❌       |     ✅      |
-| **qwen3:1.7b**           |      ✅       |        ✅         |      ✅       |     ✅      |
-| **qwen3:8b**             |      ✅       |        ✅         |      ✅       |     ✅      |
-| ~~smollm2:1.7b~~         |      ❌       |        ❌         |      ❌       |     ❌      |
+| Passing                 | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:------------------------|:------------:|:----------------:|:------------:|:----------:|
+| **hermes3:8b**          |      ✅       |        ✅         |      ✅       |     ✅      |
+| llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
+| llama3.2:1b             |      ☑️      |        ✅         |      ☑️      |     ❌      |
+| nemotron-mini:4b        |      ✅       |        ❌         |      ✅       |     ☑️     |
+| qwen3:0.6b              |      ✅       |        ☑️        |      ❌       |     ✅      |
+| **qwen3:1.7b**          |      ✅       |        ✅         |      ✅       |     ✅      |
+| **qwen3:8b**            |      ✅       |        ✅         |      ✅       |     ✅      |
+
+| Failing              | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
+|:---------------------|:------------:|:----------------:|:------------:|:----------:|
+| command-r7b:7b       |      ❌       |        ❌         |      ❌       |     ❌      |
+| granite3.2-vision:2b |      ❌       |        ❌         |      ❌       |     ❌      |
+| granite3.3:2b        |      ❌       |        ❌         |      ❌       |     ❌      |
+| mistral:7b           |      ❌       |        ❌         |      ❌       |     ❌      |
+| qwen2.5-coder:7b     |      ❌       |        ❌         |      ❌       |     ❌      |
+| smollm2:1.7b         |      ❌       |        ❌         |      ❌       |     ❌      |
 
 [math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
 [ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
@@ -135,7 +138,7 @@ huihui_ai/baronllm-abliterated:8b
 
 Tested with [attogram/ollama-multirun][ollama-multirun]
 
-| Small Model          | [Describe][describe] | [Keywords][keywords] | [Faces][faces] |
+| Passing              | [Describe][describe] | [Keywords][keywords] | [Faces][faces] |
 |:---------------------|:--------------------:|:--------------------:|:--------------:|
 | bakllava:7b          |          ✅           |          ❌           |       ❌        |
 | granite3.2-vision:2b |          ✅           |          ✅           |       ❌        |
@@ -158,13 +161,16 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 Tested with [attogram/ollama-multirun][ollama-multirun]
 
-| Small Model          | [OCR][ocr] |
+| Passing              | [OCR][ocr] |
 |:---------------------|:----------:|
-| ~~bakllava:7b~~      |     ❌      |
 | granite3.2-vision:2b |     ☑️     |
 | minicpm-v:8b         |     ☑️     |
 | **qwen2.5vl:3b**     |     ✅      |
 | **qwen2.5vl:7b**     |     ✅      |
+
+| Failing              | [OCR][ocr] |
+|:---------------------|:----------:|
+| ~~bakllava:7b~~      |     ❌      |
 | gemma3:4b            |     🕒     |
 | ~~llava:7b~~         |     ❌      |
 | ~~llava-llama3:8b~~  |     ❌      |
