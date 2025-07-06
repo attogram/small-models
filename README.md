@@ -107,6 +107,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 |:------------------------|:------------:|:----------------:|:------------:|:----------:|
 | granite3.2-vision:2b    |      ❌       |        ❌         |      ❌       |     ❌      |
 | granite3.3:2b           |      ❌       |        ❌         |      ❌       |     ❌      |
+| hermes3:8b              |      ✅       |        ✅         |      ✅       |     ✅      |
 | llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
 | llama3.2:1b             |      ☑️      |        ✅         |      ☑️      |     ❌      |
 | mistral:7b              |      ❌       |        ❌         |      ❌       |     ❌      |
