@@ -226,7 +226,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | **codellama:7b**                  |              ✅               |       ✅        |
 | **deepcoder:1.5b**                |              ✅               |       ✅        |
 | **deepseek-r1:1.5b**              |              ✅               |       ✅        |
-| deepseek-r1:8b                    |            ☑️   ️            |       ✅        |
+| deepseek-r1:8b                    |              ☑️              |       ✅        |
 | dolphin-mistral:7b                |              ☑️              |       ✅        |
 | **dolphin3:8b**                   |              ✅               |       ✅        |
 | gemma3:1b                         |              ☑️              |       ✅        |
