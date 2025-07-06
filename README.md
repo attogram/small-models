@@ -111,6 +111,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 | llama3-groq-tool-use:8b  |      ✅       |        ✅         |      ❌       |     ✅      |
 | llama3.2:1b              |      ☑️      |        ✅         |      ☑️      |     ❌      |
 | ~~mistral:7b~~           |      ❌       |        ❌         |      ❌       |     ❌      |
+| nemotron-mini:4b         |      ✅       |        ❌         |      ✅       |     ☑️     |
 | ~~qwen2.5-coder:7b~~     |      ❌       |        ❌         |      ❌       |     ❌      |
 | qwen3:0.6b               |      ✅       |        ☑️        |      ❌       |     ✅      |
 | **qwen3:1.7b**           |      ✅       |        ✅         |      ✅       |     ✅      |
