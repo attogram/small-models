@@ -22,7 +22,9 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 | granite3.3:2b |      ✅       |        ✅         |      ✅       |     ✅      |
 | hermes3:8b    |      ✅       |        ✅         |      ✅       |     ✅      |
 | llama3.2:1b   |      ✅       |        ✅         |      ✅       |     ✅      |
+| llama3.2:3b   |      ✅       |        ✅         |      ✅       |     ✅      |
 | qwen3:1.7b    |      ✅       |        ✅         |      ✅       |     ✅      |
+| qwen3:4b      |      ✅       |        ✅         |      ✅       |     ✅      |
 | qwen3:8b      |      ✅       |        ✅         |      ✅       |     ✅      |
 
 | Failing                 | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
@@ -41,6 +43,55 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 [time]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/time.txt> "Datetime Tool Test"
 [web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "What time is it Test"
 
+```
+aya-expanse:8b
+cogito:3b
+command-r7b-arabic:7b
+granite3-dense:2b
+granite3-dense:8b
+granite3-moe:1b
+granite3-moe:3b
+granite3.1-dense:2b
+granite3.1-dense:8b
+granite3.1-moe:1b
+granite3.1-moe:3b
+granite3.2:2b
+granite3.2:8b
+granite3.3:8b
+hermes3:3b
+llama3.1:8b
+mixtral:8x7b
+phi4-mini:3.8b
+qwen2.5-coder:0.5b
+qwen2.5-coder:1.5b
+qwen2.5-coder:3b
+qwen2.5:0.5b
+qwen2.5:1.5b
+qwen2.5:3b
+qwen2.5:7b
+qwen2:0.5b
+qwen2:1.5b
+qwen2:7b
+
+Hituzip/gemma3-tools:4b
+PetrosStav/gemma3-tools:4b
+hhao/qwen2.5-coder-tools:0.5b
+hhao/qwen2.5-coder-tools:1.5b
+hhao/qwen2.5-coder-tools:3b
+hhao/qwen2.5-coder-tools:7b
+ishumilin/deepseek-r1-coder-tools-tuned:1.5b
+ishumilin/deepseek-r1-coder-tools-tuned:7b
+ishumilin/deepseek-r1-coder-tools-tuned:8b
+ishumilin/deepseek-r1-coder-tools:1.5b
+ishumilin/deepseek-r1-coder-tools:7b
+ishumilin/deepseek-r1-coder-tools:8b
+maryasov/qwen2.5-coder-cline:7b
+orieg/gemma3-tools:1b
+orieg/gemma3-tools:4b
+tom_himanen/deepseek-r1-roo-cline-tools:1.5b
+tom_himanen/deepseek-r1-roo-cline-tools:7b
+tom_himanen/deepseek-r1-roo-cline-tools:8b
+```
 [^top](#Small-Models)
 
 ## Chat Room
