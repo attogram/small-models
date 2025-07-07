@@ -176,8 +176,8 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | ~~starcoder:7b~~                  |            ❌             |              ❌               |
 | **Small Model**                   | **[Socrates][socrates]** | **[Strawberry][strawberry]** |
 
-[socrates]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/socrates.txt> "Socrates Test"
-[strawberry]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/strawberry.txt> "Strawberry Test"
+[socrates]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/logic/socrates.txt> "Socrates Test"
+[strawberry]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/logic/strawberry.txt> "Strawberry Test"
 
 [^top](#Small-Models)
 
@@ -198,9 +198,9 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | llava-phi3:3.8b      |          ✅           |          ☑️          |       ☑️       |
 | moondream:1.8b       |          ✅           |          ❌           |       ❌        |
 
-[describe]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.describe.txt> "Vision Describe Test"
-[keywords]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.keywords.txt> "Vision Keywords Test"
-[faces]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.faces.txt> "Vision Faces Test"
+[describe]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision/vision.describe.txt> "Vision Describe Test"
+[keywords]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision/vision.keywords.txt> "Vision Keywords Test"
+[faces]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision/vision.faces.txt> "Vision Faces Test"
 
 [^top](#Small-Models)
 
@@ -224,7 +224,7 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | ~~llava-phi3:3.8b~~  |     ❌      |
 | ~~moondream:1.8b~~   |     ❌      |
 
-[ocr]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision.ocr.txt> "Vision OCR Test"
+[ocr]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/vision/vision.ocr.txt> "Vision OCR Test"
 
 [^top](#Small-Models)
 
@@ -264,10 +264,10 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | starcoder:7b                          |          ☑️          |                  |         ❌          |                          |
 | **Small Model**                       | **[bash-1][bash-1]** | **[js-1][js-1]** | **[php-1][php-1]** | **[python-1][python-1]** |
 
-[bash-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/bash.array.to.html.txt> "Bash Array to HTML Test"
-[js-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/javascript.array.to.html.txt> "Javascript Array to HTML Test"
-[php-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/php.array.to.html.txt> "PHP Array to HTML Test"
-[python-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/python.array.to.html.txt> "Python Array to HTML Test"
+[bash-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/bash.array.to.html.txt> "Bash Array to HTML Test"
+[js-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/javascript.array.to.html.txt> "Javascript Array to HTML Test"
+[php-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/php.array.to.html.txt> "PHP Array to HTML Test"
+[python-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/python.array.to.html.txt> "Python Array to HTML Test"
 
 [^top](#Small-Models)
 
@@ -309,8 +309,8 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 | ~~starcoder:7b~~                  |              ❌               |       ❌        |
 | **Small Model**                   | **[Hovercraft][hovercraft]** | **[Who][who]** |
 
-[hovercraft]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/hovercraft.txt> "Hovercraft Test"
-[who]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/who.are.you.txt> "Who are you Test"
+[hovercraft]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/hovercraft.txt> "Hovercraft Test"
+[who]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/who.are.you.txt> "Who are you Test"
 
 ```
 deepseek-r1:7b
