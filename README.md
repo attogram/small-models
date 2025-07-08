@@ -6,11 +6,15 @@ Comparison of small open source LLMs (8b parameters or less)
 
 All testing done with [Ollama](https://github.com/ollama/ollama)
 
-Key:
-- ✅ Pass
-- ☑️ Partial Pass
-- ❌ Fail
-- 🕒 Fail from timeout (5 minutes)
+|       | Key                              |
+|:-----:|:---------------------------------|
+|   ✅   | Pass                             |
+|  ☑️   | Partial Pass                     |
+|   ❌   | Fail                             |
+|  🕒   | Timeout                          |
+| 😵‍💫 | Hallucinations                   |
+|  🚫   | Rejected prompt / unsafe content |
+|  💔   | Malformed Response / Tool call   |
 
 ## Tool Usage
 
@@ -32,16 +36,16 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 | command-r7b:7b          |      ❌       |        ❌         |      ❌       |     ❌      |
 | granite3.2-vision:2b    |      ❌       |        ❌         |      ❌       |     ❌      |
 | llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
-| mistral:7b              |      ❌       |        ❌         |      ❌       |     ❌      |
+| mistral:7b              |      💔      |        💔        |      💔      |     💔     |
 | nemotron-mini:4b        |      ✅       |        ❌         |      ✅       |     ☑️     |
-| qwen2.5-coder:7b        |      ☑️      |        ☑️        |      ☑️      |     ☑️     |
+| qwen2.5-coder:7b        |      💔      |        💔        |      💔      |     💔     |
 | qwen3:0.6b              |      ✅       |        ☑️        |      ❌       |     ✅      |
-| smollm2:1.7b            |      ☑️      |        ❌         |      ☑️      |     ☑️     |
+| smollm2:1.7b            |      💔      |        💔        |      ✅       |   😵‍💫    |
 
-[math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Webpage Tool Test"
+[math]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/math.txt> "Math Tool Test"
 [ollama]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/ollama.txt> "Ollama Tool Test"
 [time]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/time.txt> "Datetime Tool Test"
-[web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "What time is it Test"
+[web]: <https://github.com/attogram/ollama-bash-toolshed/blob/main/test-prompts/web.txt> "Web Tool Test"
 
 ```
 aya-expanse:8b
