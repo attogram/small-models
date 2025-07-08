@@ -22,6 +22,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
 | Passing       | [Math][math] | [Ollama][ollama] | [Time][time] | [Web][web] |
 |:--------------|:------------:|:----------------:|:------------:|:----------:|
+| cogito:3b     |      ✅       |        ✅         |      ✅       |     ✅      |
 | cogito:8b     |      ✅       |        ✅         |      ✅       |     ✅      |
 | granite3.3:2b |      ✅       |        ✅         |      ✅       |     ✅      |
 | hermes3:8b    |      ✅       |        ✅         |      ✅       |     ✅      |
@@ -35,6 +36,7 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 |:------------------------|:------------:|:----------------:|:------------:|:----------:|
 | command-r7b:7b          |      ❌       |        ❌         |      ❌       |     ❌      |
 | granite3.2-vision:2b    |      ❌       |        ❌         |      ❌       |     ❌      |
+| granite3.3:8b           |      💔      |        💔        |      💔      |     💔     |
 | llama3-groq-tool-use:8b |      ✅       |        ✅         |      ❌       |     ✅      |
 | mistral:7b              |      💔      |        💔        |      💔      |     💔     |
 | nemotron-mini:4b        |      ✅       |        ❌         |      ✅       |     ☑️     |
@@ -49,7 +51,6 @@ Tested with [attogram/ollama-bash-toolshed][ollama-bash-toolshed]
 
 ```
 aya-expanse:8b
-cogito:3b
 command-r7b-arabic:7b
 granite3-dense:2b
 granite3-dense:8b
@@ -61,7 +62,6 @@ granite3.1-moe:1b
 granite3.1-moe:3b
 granite3.2:2b
 granite3.2:8b
-granite3.3:8b
 hermes3:3b
 llama3.1:8b
 mixtral:8x7b
