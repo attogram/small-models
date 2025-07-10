@@ -336,13 +336,13 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 
 ## More from the Attogram Project
 
-| Project           | Github Repo                                  | Description                                                                                                                                                                       |
-|-------------------|----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Multirun**      | [ollama-multirun][ollama-multirun]           | run a prompt against all, or some, of your models running on Ollama. Creates web pages with the output, performance statistics and model info. All in a single Bash shell script. |
-| **Toolshed**      | [ollama-bash-toolshed][ollama-bash-toolshed] | chat with tool calling models. Sample tools included. Add new tools to your shed with ease. Runs on Ollama. All via Bash shell scripts.                                           |
-| **LLM Council**   | [llm-council][llm-council]                   | start a chat room between all, or some, of your models running on Ollama. All in a single Bash shell script.                                                                      |
-| **Small Models**  | [small-models][small-models]                 | a comparison of small open source LLMs (8b parameters or less)                                                                                                                    |
-| **AI Test Zone**  | [ai_test_zone][ai_test_zone]                 | test results hosted on https://attogram.github.io/ai_test_zone/                                                                                                                   |
+| Project               | Github Repo                                      | Description                                                                                                                                                                                 |
+|-----------------------|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Multirun**          | [ollama-multirun][ollama-multirun]               | run a prompt against all, or some, of your models running on Ollama.<br />Creates web pages with the output, performance statistics and model info.<br />All in a single Bash shell script. |
+| **Toolshed**          | [ollama-bash-toolshed][ollama-bash-toolshed]     | chat with tool calling models. Sample tools included.<br />Add new tools to your shed with ease. Runs on Ollama.<br />All via Bash shell scripts.                                           |
+| **LLM Council**       | [llm-council][llm-council]                       | start a chat room between all, or some, of your models running on Ollama.<br />All in a single Bash shell script.                                                                           |
+| **Small Models**      | [small-models][small-models]                     | a comparison of small open source LLMs (8b parameters or less)                                                                                                                              |
+| **AI Test Zone**      | [ai_test_zone][ai_test_zone]                     | test results hosted on https://attogram.github.io/ai_test_zone/                                                                                                                             |
 
 [llm-council]: <https://github.com/attogram/llm-council> "LLM Council"
 [ollama-bash-toolshed]: <https://github.com/attogram/ollama-bash-toolshed> "Ollama Bash Toolshed"
