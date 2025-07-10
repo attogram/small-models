@@ -2,9 +2,9 @@
 
 Comparison of small open source LLMs (8b parameters or less)
 
-[Tool Usage](#Tool-Usage) | [Chat Room](#Chat-Room) | [Logic](#Logic) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [General](#General)
+[General](#General) | [Tool Usage](#Tool-Usage) | [Chat Room](#Chat-Room) | [Logic](#Logic) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation)
 
-All testing done with [Ollama](https://github.com/ollama/ollama)
+All testing done with [Ollama](https://github.com/ollama/ollama) on a MacBook Pro with Apple M2 chip and 16 GB memory.
 
 |       | Key                              |
 |:-----:|:---------------------------------|
@@ -15,6 +15,63 @@ All testing done with [Ollama](https://github.com/ollama/ollama)
 | 😵‍💫 | Hallucinations                   |
 |  🚫   | Rejected prompt / unsafe content |
 |  💔   | Malformed Response / Tool call   |
+
+## General
+
+Tested with [attogram/ollama-multirun][ollama-multirun]
+
+| Small Model                       |   [Hovercraft][hovercraft]   | [Pirate][pirate]                                                                                                                 |   [Who][who]   |
+|:----------------------------------|:----------------------------:|----------------------------------------------------------------------------------------------------------------------------------|:--------------:|
+| bakllava:7b                       |              ❌               |                                                                                                                                  |       ✅        |
+| codellama:7b                      |              ✅               | [✅](https://attogram.github.io/ai_test_zone/from_now_on_you_must_talk_like_a_pirate_arg__tell_20250710-195750/codellama_7b.html) |       ✅        |
+| cogito:3b                         |                              | [✅](https://attogram.github.io/ai_test_zone/from_now_on_you_must_talk_like_a_pirate_arg__tell_20250710-195750/cogito_3b.html)    |       ✅        |
+| deepcoder:1.5b                    |              ✅               |                                                                                                                                  |       ✅        |
+| deepseek-r1:1.5b                  |              ✅               |                                                                                                                                  |       ✅        |
+| deepseek-r1:8b                    |              ☑️              |                                                                                                                                  |       ✅        |
+| dolphin-mistral:7b                |              ☑️              |                                                                                                                                  |       ✅        |
+| dolphin3:8b                       |              ✅               |                                                                                                                                  |       ✅        |
+| gemma3:1b                         |              ☑️              |                                                                                                                                  |       ✅        |
+| gemma3:4b                         |              ☑️              |                                                                                                                                  |       ✅        |
+| gemma:2b                          |              ☑️              |                                                                                                                                  |       ✅        |
+| granite3.2-vision:2b              |              ✅               |                                                                                                                                  |       ✅        |
+| granite3.3:2b                     |              ☑️              |                                                                                                                                  |       ✅        |
+| huihui_ai/baronllm-abliterated:8b |              ☑️              |                                                                                                                                  |       ✅        |
+| llama3-groq-tool-use:8b           |              ☑️              |                                                                                                                                  |       ✅        |
+| llama3.2:1b                       |              ✅               |                                                                                                                                  |       ☑️       |
+| llava-llama3:8b                   |              ☑️              |                                                                                                                                  |       ✅        |
+| llava-phi3:3.8b                   |              ✅               |                                                                                                                                  |       ✅        |
+| llava:7b                          |              ✅               |                                                                                                                                  |       ✅        |
+| minicpm-v:8b                      |              ❌               |                                                                                                                                  |       ✅        |
+| mistral:7b                        |              ☑️              |                                                                                                                                  |       ✅        |
+| qwen2.5-coder:7b                  |              ✅               |                                                                                                                                  |       ✅        |
+| qwen2.5vl:3b                      |              ✅               |                                                                                                                                  |       ✅        |
+| qwen2.5vl:7b                      |              ☑️              |                                                                                                                                  |       ✅        |
+| qwen3:1.7b                        |              ✅               |                                                                                                                                  |       ✅        |
+| qwen3:8b                          |              ☑️              |                                                                                                                                  |       ✅        |
+| smollm2:135m                      |              ✅               |                                                                                                                                  |       ✅        |
+| smollm2:360m                      |              ☑️              |                                                                                                                                  |       ✅        |
+| smollm2:1.7b                      |              ✅               |                                                                                                                                  |       ✅        |
+| stable-code:3b                    |              ☑️              |                                                                                                                                  |       ✅        |
+| starcoder:7b                      |              ❌               |                                                                                                                                  |       ❌        |
+| **Small Model**                   | **[Hovercraft][hovercraft]** | **[Pirate][pirate]**                                                                                                             | **[Who][who]** |
+
+[hovercraft]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/hovercraft.txt> "Hovercraft Test"
+[pirate]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/pirate.jokes.txt> "Pirate jokes Test"
+[who]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/who.are.you.txt> "Who are you Test"
+
+```
+deepseek-r1:7b
+llama3.1:8b
+llama3.3:3b
+llama3:8b
+phi:2.7b
+phi3:3.8b
+tinyllama:1.1b
+qwen3:0.6b
+qwen3:4b
+```
+
+[^top](#Small-Models)
 
 ## Tool Usage
 
@@ -272,61 +329,6 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 [js-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/javascript.array.to.html.txt> "Javascript Array to HTML Test"
 [php-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/php.array.to.html.txt> "PHP Array to HTML Test"
 [python-1]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/code/python.array.to.html.txt> "Python Array to HTML Test"
-
-[^top](#Small-Models)
-
-## General
-
-Tested with [attogram/ollama-multirun][ollama-multirun]
-
-| Small Model                       |   [Hovercraft][hovercraft]   |   [Who][who]   |
-|:----------------------------------|:----------------------------:|:--------------:|
-| bakllava:7b                       |              ❌               |       ✅        |
-| **codellama:7b**                  |              ✅               |       ✅        |
-| **deepcoder:1.5b**                |              ✅               |       ✅        |
-| **deepseek-r1:1.5b**              |              ✅               |       ✅        |
-| deepseek-r1:8b                    |              ☑️              |       ✅        |
-| dolphin-mistral:7b                |              ☑️              |       ✅        |
-| **dolphin3:8b**                   |              ✅               |       ✅        |
-| gemma3:1b                         |              ☑️              |       ✅        |
-| gemma3:4b                         |              ☑️              |       ✅        |
-| gemma:2b                          |              ☑️              |       ✅        |
-| **granite3.2-vision:2b**          |              ✅               |       ✅        |
-| granite3.3:2b                     |              ☑️              |       ✅        |
-| huihui_ai/baronllm-abliterated:8b |              ☑️              |       ✅        |
-| llama3-groq-tool-use:8b           |              ☑️              |       ✅        |
-| **llama3.2:1b**                   |              ✅               |       ☑️       |
-| llava-llama3:8b                   |              ☑️              |       ✅        |
-| **llava-phi3:3.8b**               |              ✅               |       ✅        |
-| **llava:7b**                      |              ✅               |       ✅        |
-| minicpm-v:8b                      |              ❌               |       ✅        |
-| mistral:7b                        |              ☑️              |       ✅        |
-| **qwen2.5-coder:7b**              |              ✅               |       ✅        |
-| **qwen2.5vl:3b**                  |              ✅               |       ✅        |
-| qwen2.5vl:7b                      |              ☑️              |       ✅        |
-| **qwen3:1.7b**                    |              ✅               |       ✅        |
-| qwen3:8b                          |              ☑️              |       ✅        |
-| **smollm2:135m**                  |              ✅               |       ✅        |
-| smollm2:360m                      |              ☑️              |       ✅        |
-| **smollm2:1.7b**                  |              ✅               |       ✅        |
-| stable-code:3b                    |              ☑️              |       ✅        |
-| ~~starcoder:7b~~                  |              ❌               |       ❌        |
-| **Small Model**                   | **[Hovercraft][hovercraft]** | **[Who][who]** |
-
-[hovercraft]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/hovercraft.txt> "Hovercraft Test"
-[who]: <https://github.com/attogram/ollama-multirun/blob/main/test-prompts/general/who.are.you.txt> "Who are you Test"
-
-```
-deepseek-r1:7b
-llama3.1:8b
-llama3.3:3b
-llama3:8b
-phi:2.7b
-phi3:3.8b
-tinyllama:1.1b
-qwen3:0.6b
-qwen3:4b
-```
 
 [^top](#Small-Models)
 
