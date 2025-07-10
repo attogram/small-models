@@ -2,7 +2,7 @@
 
 Comparison of small open source LLMs (8b parameters or less)
 
-[General](#General) | [Tool Usage](#Tool-Usage) | [Chat Room](#Chat-Room) | [Logic](#Logic) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation)
+[General](#General) | [Tool Usage](#Tool-Usage) | [Chat Room](#Chat-Room) | [Logic](#Logic) | [Vision](#Vision) | [Vision OCR](#Vision-OCR) | [Code Generation](#Code-Generation) | [More](#More-from-the-Attogram-Project)
 
 All testing done with [Ollama](https://github.com/ollama/ollama) on a MacBook Pro with Apple M2 chip and 16 GB memory.
 
