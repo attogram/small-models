@@ -349,3 +349,5 @@ Tested with [attogram/ollama-multirun][ollama-multirun]
 [ollama-multirun]: <https://github.com/attogram/ollama-multirun> "Ollama Multirun"
 [small-models]: <https://github.com/attogram/small-models> "Small Models"
 [ai_test_zone]: <https://github.com/attogram/ai_test_zone> "AI Test Zone"
+
+[^top](#Small-Models)
